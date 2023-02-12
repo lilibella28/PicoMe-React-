@@ -11,7 +11,7 @@ const Map = () => {
   return (
     <div style={{ height: '400px' }}>
       <LoadScript
-        googleMapsApiKey="AIzaSyCGD8RfpGj4HKVtm7uHsYUfn22l2tJWW7o"
+        googleMapsApiKey=""
       >
         <GoogleMap
           center={center}
