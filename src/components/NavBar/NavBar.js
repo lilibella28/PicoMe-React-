@@ -1,22 +1,29 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
+import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import Nav from 'react-bootstrap/Nav';
+import logo from '../../assests/Image/mainLogo.png';
 
-function BasicExample() {
+function NavBars() {
 	return (
-		<Navbar bg="light" expand="lg">
-			<Container>
-				<Navbar.Brand href="#home">PicoMe</Navbar.Brand>
-				<Nav.Link href="#home">Home</Nav.Link>
-				<Nav.Link href="#link">About Us</Nav.Link>
-				<Nav.Link href="#home">Find Food</Nav.Link>
-				<Nav.Link href="#link">Offer Food</Nav.Link>
-			
-				
-			</Container>
+		<Navbar bg="light" expand="md">
+			<Navbar.Brand href="#">
+				<img src={logo} width="120" height="100" className="d-inline-block align-top" alt="Brand logo" />
+			</Navbar.Brand>
+			<Navbar.Toggle aria-controls="basic-navbar-nav" />
+			<Navbar.Collapse id="basic-navbar-nav">
+				<div className="mr-auto">
+					<Nav className="mr-auto">
+						<Nav.Link href="#home">Home</Nav.Link>
+						<Nav.Link href="#about">About Us</Nav.Link>
+						<Nav.Link href="#">Sign In</Nav.Link>
+						<Nav.Link href="#">Find Food</Nav.Link>
+						<Nav.Link href="#">Offer Food</Nav.Link>
+						<Nav.Link href="#">Contact Us</Nav.Link>
+					</Nav>
+				</div>
+			</Navbar.Collapse>
 		</Navbar>
 	);
 }
 
-export default BasicExample;
+export default NavBars;
