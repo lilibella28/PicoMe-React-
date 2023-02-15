@@ -8,7 +8,7 @@ function HomePage() {
 		<div className="App">
 			<NavBar />
       <MDBContainer>
-      <Map />
+    
       </MDBContainer>
 
 			<Footer />

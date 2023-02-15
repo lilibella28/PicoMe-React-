@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import { LinkContainer } from 'react-router-bootstrap';
+
 import logo from '../../assests/Image/mainLogo.png';
 
 function NavBars() {
@@ -13,14 +15,15 @@ function NavBars() {
 			<Navbar.Collapse id="basic-navbar-nav">
 				<div className="mr-auto">
 					<Nav className="mr-auto">
-						<Nav.Link href="#home">Home</Nav.Link>
-						<Nav.Link href="#about">About Us</Nav.Link>
-						<Nav.Link href="#">Sign In</Nav.Link>
-						<Nav.Link href="#">Find Food</Nav.Link>
-						<Nav.Link href="#">Offer Food</Nav.Link>
+						<Nav.Link href="/">Home</Nav.Link>
+						<Nav.Link href="/about">About Us</Nav.Link>
+						<Nav.Link href="/signin">Sign In</Nav.Link>
+						<Nav.Link href="/find">Find Food</Nav.Link>
+						<Nav.Link href="/offer">Offer Food</Nav.Link>
 						<Nav.Link href="#">Contact Us</Nav.Link>
 					</Nav>
 				</div>
+				
 			</Navbar.Collapse>
 		</Navbar>
 	);
