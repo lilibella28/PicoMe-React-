@@ -1,9 +1,8 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
+import { Navbar, Nav } from 'react-bootstrap';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import AppRoute from '../Routes/AppRoutes'
+import AppRoute from '../Routes/AppRoutes';
 import logo from '../../assests/Image/mainLogo.png';
 
 function NavBars() {
@@ -39,7 +38,7 @@ function NavBars() {
 					</div>
 				</Navbar.Collapse>
 			</Navbar>
-		<AppRoute/>
+			<AppRoute />
 		</Router>
 	);
 }
