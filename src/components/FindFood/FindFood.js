@@ -3,7 +3,7 @@ import React from "react";
 function FindFood(){
     return(
        <div>
-           <h1>Sign in Here</h1>
+           <h1>find food</h1>
        </div>
     );
 };

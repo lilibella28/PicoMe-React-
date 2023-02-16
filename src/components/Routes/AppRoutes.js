@@ -1,24 +1,25 @@
 import React from 'react';
-import { BrowserRoutes, Route, Switch } from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 import Homepage from '../HomePage/HomePage';
 import SignIn from '../SignIn/SignIn';
 import FindFood from '../FindFood/FindFood';
 import OfferFood from '../OfferFood/OfferFood';
-import AboutUs from '../AboutUs/AboutUs';
-import OrdenHomepage from '../OrdenHomePage/OrdenHomepage';
+import AboutUs from '../AboutUs/AboutUs.js';
+import Contact from '../Contact/Contact';
 
-function Routes() {
+function Router() {
 	return (
-		<BrowserRoutes>
-			<Switch>
-				<Route exact path="/" component={Homepage} />
-				<Route path="/about" component={AboutUs} />
-				<Route path="/signin" component={SignIn} />
-				<Route path="/find" component={FindFood} />
-				<Route path="/offer" component={OfferFood} />
-			</Switch>
-		</BrowserRoutes>
+
+				<Routes>
+					<Route exact path="/" element={<Homepage />} />
+					<Route path="/about" element={<AboutUs />} />
+					<Route path="/signin" element={<SignIn />} />
+					<Route path="/find" element={<FindFood />} />
+					<Route path="/offer" element={< OfferFood />} />
+					<Route path="/contact" element={< Contact />} />
+				</Routes>
+			
 	);
 }
 
-export default Routes;
+export default Router;

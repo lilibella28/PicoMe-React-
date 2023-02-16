@@ -1,11 +1,11 @@
 import React from "react";
 
-function OfferFood(){
+function Contact(){
     return(
        <div>
-           <h1>Offer food</h1>
+           <h1>contact me</h1>
        </div>
     );
 };
 
-export default OfferFood;
+export default Contact

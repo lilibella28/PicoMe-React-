@@ -1,12 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
-import HomePage from '../src/components/HomePage/HomePage.js'
-import { MDBContainer } from 'mdb-react-ui-kit';
-import Map from '../src/components/Map/Map.js';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Footer from '../src/components/Footer/Footer'
+import NavBar from '../src/components/NavBar/NavBar'
+
 function App() {
 	return (
 		<div className="App">
-			<HomePage />
+
+			<NavBar />
+		
+			<Footer />
+
 		</div>
 	);
 }
