@@ -6,9 +6,9 @@ import SignIn from '../SignIn'
 import Social from '../SocialMSignIn/Social'
 function SigInMain() {
 	return (
-		<div className="App">
+		<div>
 			
-			<Container fluid>
+			<Container >
       <Row>
         <Col>
         <Social/>

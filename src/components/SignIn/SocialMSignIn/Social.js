@@ -7,7 +7,7 @@ function Social() {
 	return (
 		<div>
 			
-			<Container fluid>
+			<Container>
       <Row>
         
 		 <Button type='button'> Continue  with Google</Button>

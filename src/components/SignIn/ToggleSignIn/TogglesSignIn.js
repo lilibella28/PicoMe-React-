@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import SignIn from '../SigInMain/SigInMain';
-import EmailForm from '../SignIn';
+import EmailForm from '../../SignUp/SignUp';
 import Button from '../../Common/Button/Button'
 function ToggleButton() {
 	const [isOn, setIsOn] = useState(false);
