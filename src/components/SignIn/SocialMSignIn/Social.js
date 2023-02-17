@@ -9,15 +9,15 @@ function Social() {
 		<div>
 			<Container>
 				<Row>
-					<Button  className ="my-button" type="button">
+					<Button  className ="google-button my-button" type="button">
 						{' '}
 						<MDBIcon fab icon="google" /> Continue with Google
 					</Button>
-					<Button type="button">
+					<Button  className="facebook-button my-button" type="button">
 						{' '}
 						<MDBIcon fab icon="facebook" /> Continue with Facebook
 					</Button>
-					<Button type="button">
+					<Button className="apple-button my-button" type="button">
 						{' '}
 						<MDBIcon fab icon="apple" /> Continue with Apple
 					</Button>
