@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import '../../../scss/InputStyle/InputStyle.scss'
 
 const Input = ({ type, name, label, value, onChange, placeholder, required, autoComplete }) => {
   return (
@@ -13,7 +14,7 @@ const Input = ({ type, name, label, value, onChange, placeholder, required, auto
         placeholder={placeholder}
         required={required}
         autoComplete={autoComplete}
-        className="form-control"
+        className="form-control inputStyle"
       />
     </div>
   );
@@ -33,7 +34,7 @@ Input.propTypes = {
 Input.defaultProps = {
   type: "text",
   placeholder: "",
-  required: false,
+  
 };
 
 export default Input;

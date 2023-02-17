@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Input from '../Common/Input/Input';
 import Button from '../Common/Button/Button';
 import Social from '../SignIn/SocialMSignIn/Social';
+import '../../scss/SignUpStyle/SignUpStyle.scss'
 function SignUp() {
 	const [name, setName] = useState('');
 	const [lastname, setLastname] = useState('');
@@ -16,8 +17,13 @@ function SignUp() {
 
 	const handleNameChange = (e) => setName(e.target.value);
 	const handleLastnameChange = (e) => setLastname(e.target.value);
+
+	const handleSubmit = (e) => {
+		e.preventDefault();
+		// Handle SignUp submit
+	};
 	return (
-		<div>
+		<form onSubmit={handleSubmit}>
 			<Container>
 				<Row>
 					<Col>
@@ -27,7 +33,6 @@ function SignUp() {
 							label="First name"
 							value={name}
 							onChange={handleNameChange}
-							placeholder="Enter your first name"
 							required
 							autoComplete="name"
 						/>
@@ -39,7 +44,6 @@ function SignUp() {
 							label="Last name"
 							value={lastname}
 							onChange={handleLastnameChange}
-							placeholder="Enter your last name"
 							required
 							autoComplete="lastname"
 						/>
@@ -51,7 +55,7 @@ function SignUp() {
 						label="Email"
 						value={email}
 						onChange={handleEmailChange}
-						placeholder="Enter your email address"
+
 					/>
 
 					<Input
@@ -60,15 +64,14 @@ function SignUp() {
 						label="Password"
 						value={password}
 						onChange={handlePasswordChange}
-						placeholder="Enter your password"
 						required
 					/>
-					<Button type="submit"> Sign Up</Button>
+					<Button  className="signup-button" type="submit"> Sign Up</Button>
 					<h6>or</h6>
 					<Social />
 				</Row>
 			</Container>
-		</div>
+			</form>
 	);
 }
 

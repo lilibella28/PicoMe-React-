@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Input from '../Common/Input/Input';
 import Button from '../Common/Button/Button'
+import '../../scss/SignInButtonStyle/SignInButtonStyle.scss'
+
 
 const SignInForm= () => {
 	const [email, setEmail] = useState('');
@@ -23,9 +25,9 @@ const SignInForm= () => {
 				label="Email"
 				value={email}
 				onChange={handleEmailChange}
-				placeholder="Enter your email address"
+				placeholder="Required"
 				required
-				autoComplete="email"
+				
 			/>
             
 			<Input
@@ -34,12 +36,12 @@ const SignInForm= () => {
 				label="Password"
 				value={password}
 				onChange={handlePasswordChange}
-				placeholder="Enter your password"
+				placeholder="Required"
 				required
-				autoComplete="current-password"
+				
 			/>
 
-		<Button type='submit'> Sign In</Button>
+		<Button  className="sign-button" type='submit'> Sign In</Button>
 		</form>
 	);
 };
