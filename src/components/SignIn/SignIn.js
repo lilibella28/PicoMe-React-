@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Input from '../Common/Input/Input';
 import Button from '../Common/Button/Button'
-
+import Social from './SocialMSignIn/Social'
 const SignInForm= () => {
 	const [email, setEmail] = useState('');
 	const [password, setPassword] = useState('');
@@ -15,6 +15,7 @@ const SignInForm= () => {
 	};
 
 	return (
+     
 		<form onSubmit={handleSubmit}>
 			<Input
 				type="email"
