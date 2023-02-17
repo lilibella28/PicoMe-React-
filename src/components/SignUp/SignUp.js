@@ -17,7 +17,7 @@ function SignUp() {
 	const handleNameChange = (e) => setName(e.target.value);
 	const handleLastnameChange = (e) => setLastname(e.target.value);
 	return (
-		<div className="App">
+		<div>
 			<Container>
 				<Row>
 					<Col>
