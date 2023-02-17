@@ -3,12 +3,13 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import { MDBIcon } from 'mdb-react-ui-kit';
 import Button from '../../Common/Button/Button';
+import '../../../scss/SocialStyle/SocialStyle.scss'
 function Social() {
 	return (
 		<div>
 			<Container>
 				<Row>
-					<Button type="button">
+					<Button  className ="my-button" type="button">
 						{' '}
 						<MDBIcon fab icon="google" /> Continue with Google
 					</Button>
