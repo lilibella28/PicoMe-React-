@@ -1,6 +1,9 @@
- .MainContainer {
-    width: '400px' !important;
-    height: '500px' !important;
-    
+ .MainContainer.container {
+    width: 440px;
+    height: 646px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border-radius: 5px; 
+    box-shadow: 0px 0px 5px  rgba(54, 54, 54, 0.3);
 
 }

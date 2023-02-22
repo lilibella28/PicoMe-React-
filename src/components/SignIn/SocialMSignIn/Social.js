@@ -6,7 +6,7 @@ import Button from '../../Common/Button/Button';
 import '../../../scss/SocialStyle/SocialStyle.scss';
 function Social() {
 	return (
-		<div>
+		<div className="MainSocial">
 			<Container>
 				<Row>
 					<Button className="google-button my-button" type="button">

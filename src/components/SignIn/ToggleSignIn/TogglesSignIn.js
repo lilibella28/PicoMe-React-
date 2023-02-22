@@ -23,6 +23,7 @@ function ToggleButton() {
 					checkedIcon={false}
 					offColor="#3BCEAC"
 					onColor="#OEAD69"
+					width={56}
 					
 				/>
 				<span>Sign Up</span>
