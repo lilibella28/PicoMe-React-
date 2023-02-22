@@ -2,9 +2,19 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Map from "../Map/Map"
+import ErrorBoundary from '../../ErrorHandler/ErrorHandler'
 function AboutUs() {
 	return (
 		<Container>
+			
+			<Row>
+				<Col>
+				<ErrorBoundary>
+			<Map />
+			</ErrorBoundary>
+				</Col>
+			</Row>
 			<h3>Connecting communities, fighting hunger, together.</h3>
 			<Row>
 				<Col>
