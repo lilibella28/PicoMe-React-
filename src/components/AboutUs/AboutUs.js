@@ -20,7 +20,7 @@ function AboutUs() {
 			</div>
 			<Container>
 			<Row className="my-card">
-				<Col xs={6} sm={4}>
+				<Col md={4}>
 					
 					<Card
 							title="Mission"
@@ -33,7 +33,7 @@ function AboutUs() {
 								healthy and fulfilling meals.`}
 							/>
 				</Col>
-				<Col xs={6} sm={4}>
+				<Col md={4} >
 					<Card
 							title="Vision"
 							text=
@@ -45,7 +45,7 @@ function AboutUs() {
 								effect of kindness and generosity.`}
 						/>
 				</Col>
-				<Col xs={4} sm={4}>
+				<Col md={4}>
 					<Card
 							title="Disclaimer"
 							text=

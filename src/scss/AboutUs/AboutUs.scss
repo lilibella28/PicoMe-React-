@@ -1,8 +1,14 @@
 .card {
-    height: 600px;
+    height: 700px;
+    margin-bottom: 20px;
+    
+
   
 }
-
+// .card:not(:first-child) {
+//     margin-top: 20px;
+//   }
+  
 
 div.header_main{
     margin-top: 80px ;
@@ -13,22 +19,22 @@ div.header_main{
     position: static !important;
 }
 
-@media (max-width: 576px) {
-    .card {
-        padding: 10px;
-    }
-}
+// @media (max-width: 576px) {
+//     .card {
+//         padding: 10px;
+//     }
+// }
 
-/* Media query for medium screens (between 576px and 768px) */
-@media (min-width: 576px) and (max-width: 768px) {
-    .card {
-        padding: 15px;
-    }
-}
+// /* Media query for medium screens (between 576px and 768px) */
+// @media (min-width: 576px) and (max-width: 768px) {
+//     .card {
+//         padding: 15px;
+//     }
+// }
 
-/* Media query for large screens (above 768px) */
-@media (min-width: 768px) {
-    .card {
-        padding: 20px;
-    }
-}
+// /* Media query for large screens (above 768px) */
+// @media (min-width: 768px) {
+//     .card {
+//         padding: 20px;
+//     }
+// }
