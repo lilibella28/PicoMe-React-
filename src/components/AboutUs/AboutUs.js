@@ -18,9 +18,10 @@ function AboutUs() {
 			<div style={{marginTop: '80px', marginBottom:'80px'}}>
 			<h3>Connecting communities, fighting hunger, together.</h3>
 			</div>
-			
+			<Container>
 			<Row className="my-card">
 				<Col xs={6} sm={4}>
+					
 					<Card
 							title="Mission"
 							text=
@@ -57,7 +58,7 @@ function AboutUs() {
 							/>
 				</Col>
 			</Row>
-		
+			</Container>
 		</main>
 	);
 }
