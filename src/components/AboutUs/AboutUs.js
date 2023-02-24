@@ -16,7 +16,7 @@ function AboutUs() {
 			<h3>Connecting communities, fighting hunger, together.</h3>
 			<main>
 			<Row className="my-card">
-				<Col xs={4}>
+				<Col xs={6} sm={4}>
 					<Card
 							title="Mission"
 							text=
@@ -28,7 +28,7 @@ function AboutUs() {
 								healthy and fulfilling meals.`}
 							/>
 				</Col>
-				<Col xs={4}>
+				<Col xs={6} sm={4}>
 					<Card
 							title="Vision"
 							text=
@@ -40,7 +40,7 @@ function AboutUs() {
 								effect of kindness and generosity.`}
 						/>
 				</Col>
-				<Col xs={4}>
+				<Col xs={4} sm={4}>
 					<Card
 							title="Disclaimer"
 							text=
