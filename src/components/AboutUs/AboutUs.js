@@ -8,15 +8,14 @@ function AboutUs() {
 	return (
 		<Container>
 			
+			
+			<h3>Connecting communities, fighting hunger, together.</h3>
 			<Row>
-				<Col>
+			<Col>
 				<ErrorBoundary>
 			<Map />
 			</ErrorBoundary>
 				</Col>
-			</Row>
-			<h3>Connecting communities, fighting hunger, together.</h3>
-			<Row>
 				<Col>
 				<div className="card">
 				<div className="card-body">
@@ -42,6 +41,7 @@ function AboutUs() {
 				</div>
 				</Col>
 			</Row>
+			
 		</Container>
 	);
 }
