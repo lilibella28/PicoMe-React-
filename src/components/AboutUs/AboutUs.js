@@ -15,7 +15,7 @@ function AboutUs() {
 
 
 			
-			<div className="header-main">
+			<div style={{marginTop: '80px', marginBottom:'80px'}}>
 			<h3>Connecting communities, fighting hunger, together.</h3>
 			</div>
 			
