@@ -2,20 +2,18 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Map from "../Map/Map"
+import Map from "../Header/Header"
 import ErrorBoundary from '../../ErrorHandler/ErrorHandler'
 function AboutUs() {
 	return (
 		<Container>
-			
-			
-			<h3>Connecting communities, fighting hunger, together.</h3>
-			<Row>
-			<Col>
 				<ErrorBoundary>
 			<Map />
 			</ErrorBoundary>
-				</Col>
+			
+			<h3>Connecting communities, fighting hunger, together.</h3>
+			<Row>
+			
 				<Col>
 				<div className="card">
 				<div className="card-body">
