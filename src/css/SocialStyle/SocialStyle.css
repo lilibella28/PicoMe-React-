@@ -1,4 +1,31 @@
+.MainSocial {
+  position: relative;
+  right: 25px;
+  left: 10px; }
+
+.google-button {
+  background-color: #4285f6; }
+
+.facebook-button {
+  background-color: #3b5998; }
+
+.apple-button {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px !important; }
+
 .my-button {
-  background-color: #007bff;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  min-height: 40px;
+  border-radius: 1000px;
   border: none;
-  color: white; }
+  color: white;
+  align-items: center;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 600;
+  margin-top: 8px !important; }

@@ -4,7 +4,7 @@ import { MDBFooter, MDBContainer, MDBCol, MDBRow, MDBIcon, MDBBtn } from 'mdb-re
 function Footer() {
 	return (
 		<MDBFooter className="bg-light text-center text-white">
-			<MDBContainer className="p-4 pb-0">
+			<MDBContainer style={{marginTop:'100px'}} className="p-4 pb-0">
 				<section className="mb-4">
 					<MDBBtn floating className="m-1" style={{ backgroundColor: '#55acee' }} href="#!" role="button">
 						<MDBIcon fab icon="mail-bulk" />

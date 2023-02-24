@@ -5,7 +5,7 @@ function GoogleMap(props) {
 	const currentPosition = { lat: 39.2904, lng: -76.6122 };
 
 	return (
-		<Map google={props.google} zoom={10} initialCenter={currentPosition} style={{ height: '400px', width: '100%', margin_bottom:'200px'}}>
+		<Map google={props.google} zoom={10} initialCenter={currentPosition} style={{ height: '400px', width: '100%', position:'relative'}}>
 			<Marker position={currentPosition} />
 		</Map>
 	);

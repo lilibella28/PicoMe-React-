@@ -1,0 +1,25 @@
+.MainContainer.container {
+  width: 516px;
+  height: 600px;
+  padding-top: 40px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(54, 54, 54, 0.3); }
+
+@media (max-width: 576px) {
+  .MainContainer.container {
+    width: 400px;
+    height: 600px; } }
+
+/* Media query for medium screens (between 576px and 768px) */
+@media (min-width: 576px) and (max-width: 768px) {
+  .MainContainer.container {
+    width: 516px;
+    height: 600px; } }
+
+/* Media query for large screens (above 768px) */
+@media (min-width: 768px) {
+  .MainContainer.container {
+    width: 516px;
+    height: 600px; } }

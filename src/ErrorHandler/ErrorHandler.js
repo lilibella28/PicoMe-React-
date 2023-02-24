@@ -13,7 +13,7 @@ function ErrorBoundary(props) {
   }
 
   return (
-    <React.Fragment>
+    <React.Fragment className="test">
       {React.Children.map(props.children, (child) =>
         React.cloneElement(child, { onError: handleCatch })
       )}

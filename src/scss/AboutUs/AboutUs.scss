@@ -1,24 +1,38 @@
-.card{
-   height: auto;
+.card {
+    height: 600px;
+  ;
 }
 
 
+// .my-container {
+//     margin-right: 0px !important;
+//     margin-left: 0px !important;
+// }
+div.header_main{
+    margin-top: 80px !important;
+    margin-bottom: 80px
+}
+
+.my-container > div > div{
+    position: static !important;
+}
+
 @media (max-width: 576px) {
     .card {
-      padding: 10px;
+        padding: 10px;
     }
-  }
-  
-  /* Media query for medium screens (between 576px and 768px) */
-  @media (min-width: 576px) and (max-width: 768px) {
+}
+
+/* Media query for medium screens (between 576px and 768px) */
+@media (min-width: 576px) and (max-width: 768px) {
     .card {
-      padding: 15px;
+        padding: 15px;
     }
-  }
-  
-  /* Media query for large screens (above 768px) */
-  @media (min-width: 768px) {
+}
+
+/* Media query for large screens (above 768px) */
+@media (min-width: 768px) {
     .card {
-      padding: 20px;
+        padding: 20px;
     }
-  }
+}

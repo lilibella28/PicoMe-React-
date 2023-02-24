@@ -4,7 +4,6 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import AppRoute from '../Routes/AppRoutes';
 import logo from '../../assests/Image/mainLogo.png';
-
 function NavBars() {
 	return (
 		<Router>
@@ -39,6 +38,7 @@ function NavBars() {
 				</Navbar.Collapse>
 			</Navbar>
 			<AppRoute />
+		
 		</Router>
 	);
 }

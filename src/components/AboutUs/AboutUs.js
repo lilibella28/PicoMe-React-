@@ -2,19 +2,23 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Map from '../Header/Header';
+import Map from '../Map/Map';
 import Card from '../Cards/Cards'
 import ErrorBoundary from '../../ErrorHandler/ErrorHandler';
 import '../../scss/AboutUs/AboutUs.scss';
 function AboutUs() {
 	return (
-		<Container>
-			<ErrorBoundary>
-				<Map />
-			</ErrorBoundary>
+		<main className="my-container">
 
+	
+				<Map />
+
+
+			
+			<div className="header-main">
 			<h3>Connecting communities, fighting hunger, together.</h3>
-			<main>
+			</div>
+			
 			<Row className="my-card">
 				<Col xs={6} sm={4}>
 					<Card
@@ -53,8 +57,8 @@ function AboutUs() {
 							/>
 				</Col>
 			</Row>
-			</main>
-		</Container>
+		
+		</main>
 	);
 }
 
