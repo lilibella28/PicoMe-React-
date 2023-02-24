@@ -1,0 +1,24 @@
+.card{
+   height: auto;
+}
+
+
+@media (max-width: 576px) {
+    .card {
+      padding: 10px;
+    }
+  }
+  
+  /* Media query for medium screens (between 576px and 768px) */
+  @media (min-width: 576px) and (max-width: 768px) {
+    .card {
+      padding: 15px;
+    }
+  }
+  
+  /* Media query for large screens (above 768px) */
+  @media (min-width: 768px) {
+    .card {
+      padding: 20px;
+    }
+  }
