@@ -1,0 +1,28 @@
+.RowContainer {
+    width: 1256px;
+    height: 300px;
+    margin: 100px !important;
+    padding-top: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgba(23, 23, 45, 0.5)
+}
+
+
+.Orderhead {
+    padding: 60px
+}
+
+.Orderhead>img {
+    border-radius: 5px
+}
+
+.text {
+    width: 350px;
+    padding-top: 20px
+}
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

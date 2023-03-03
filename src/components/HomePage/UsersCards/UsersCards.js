@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import {useState} from 'react';
-
+import '../../../scss/UsersCards/UsersCards.scss'
 
 
 
@@ -18,16 +18,17 @@ function UsersCard() {
 	});
 
 	return (
-		<Row>
-			<Col xs={12} sm={4} lg={3}>
+		<Row className="RowContainer">
+			<Col xs={12} sm={4} lg={3} className="Orderhead">
 				<img src={userData.userPicture} alt="User profile" />
 			</Col>
-			<Col xs={12} sm={8} lg={6}>
+			<Col xs={12} sm={8} lg={6} className="userInfo">
 				<h5>{userData.heading}</h5>
 				<h5>{userData.username}</h5>
-				<p>{userData.text}</p>
+				<p className='text'>{userData.text}</p>
 			</Col>
 			<Col xs={12} lg={3}>
+
 				<h5>Location:</h5>
 				<h6>{userData.address}</h6>
 				<h5>Date:</h5>
