@@ -9,7 +9,7 @@ function HomePage() {
 			
 			<Container fluid>
       <Row>
-		  <Map/>
+		 
         <Col>
 		<h1>Hello</h1>
 		 </Col>
