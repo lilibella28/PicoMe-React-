@@ -1,6 +1,9 @@
-import React, { useState } from 'react';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import React from 'react';
+import { Row, Col } from 'react-bootstrap';
+import {useState} from 'react';
+
+
+
 
 function UsersCard() {
 	const [userData, setUserData] = useState({
@@ -15,24 +18,22 @@ function UsersCard() {
 	});
 
 	return (
-		<div>
-			<Row>
-				<Col>
-					<img src={userData.userPicture} alt="User profile" />
-				</Col>
-				<Col>
-					<h5>{userData.heading}</h5>
-					<h5>{userData.username}</h5>
-					<p>{userData.text}</p>
-				</Col>
-				<Col>
-					<h5>Location:</h5>
-					<h6>{userData.address}</h6>
-					<h5>Date:</h5>
-					<h6>{userData.date}</h6>
-				</Col>
-			</Row>
-		</div>
+		<Row>
+			<Col xs={12} sm={4} lg={3}>
+				<img src={userData.userPicture} alt="User profile" />
+			</Col>
+			<Col xs={12} sm={8} lg={6}>
+				<h5>{userData.heading}</h5>
+				<h5>{userData.username}</h5>
+				<p>{userData.text}</p>
+			</Col>
+			<Col xs={12} lg={3}>
+				<h5>Location:</h5>
+				<h6>{userData.address}</h6>
+				<h5>Date:</h5>
+				<h6>{userData.date}</h6>
+			</Col>
+		</Row>
 	);
 }
 
