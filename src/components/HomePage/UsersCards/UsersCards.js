@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import {useState} from 'react';
 import '../../../scss/UsersCards/UsersCards.scss'
-
+import AcceptButton from '../../Utilities/Button/Accept'
 
 
 function UsersCard() {
@@ -33,7 +33,7 @@ function UsersCard() {
 				<h6>{userData.address}</h6>
 				<h5>Date:</h5>
 				<h6>{userData.date}</h6>
-				<button>Accept Request</button>
+				<AcceptButton />
 			</Col>
 		</Row>
 	);
