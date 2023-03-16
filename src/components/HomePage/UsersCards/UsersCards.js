@@ -33,6 +33,7 @@ function UsersCard() {
 				<h6>{userData.address}</h6>
 				<h5>Date:</h5>
 				<h6>{userData.date}</h6>
+				<button>Accept Request</button>
 			</Col>
 		</Row>
 	);
