@@ -18,7 +18,7 @@ const SignInForm= () => {
 
 	return (
      
-		<form onSubmit={handleSubmit}>
+		<form   onSubmit={handleSubmit}>
 			<Input
 				type="email"
 				name="email"
@@ -27,7 +27,8 @@ const SignInForm= () => {
 				onChange={handleEmailChange}
 				placeholder="Required"
 				required
-				
+			
+			
 			/>
             
 			<Input
@@ -38,7 +39,8 @@ const SignInForm= () => {
 				onChange={handlePasswordChange}
 				placeholder="Required"
 				required
-				
+				autoComplete="off"
+			
 			/>
 
 		<Button  className="sign-button" type='submit'> Sign In</Button>

@@ -55,6 +55,9 @@ function SignUp() {
 						label="Email"
 						value={email}
 						onChange={handleEmailChange}
+						placeholder="Required"
+						required
+						autoComplete="off"
 
 					/>
 
@@ -64,7 +67,9 @@ function SignUp() {
 						label="Password"
 						value={password}
 						onChange={handlePasswordChange}
+						placeholder="Required"
 						required
+						autoComplete="off"
 					/>
 					<Button  className="signup-button" type="submit"> Sign Up</Button>
 					<h6>or</h6>
