@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Input from '../Common/Input/Input';
 import Button from '../Common/Button/Button'
-import '../../scss/SignInButtonStyle/SignInButtonStyle.scss'
+
 
 
 const SignInForm= () => {
@@ -43,7 +43,7 @@ const SignInForm= () => {
 			
 			/>
 
-		<Button  className="sign-button" type='submit'> Sign In</Button>
+		<Button  className="flex justify-center w-full text-white items-center text-center m-0 p-0 font-semibold mt-2 bg-orange-400 rounded-full  h-8 min-h-full"  type='submit'> Sign In</Button>
 		</form>
 	);
 };
