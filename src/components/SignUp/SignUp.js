@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Input from '../Common/Input/Input';
 import Button from '../Common/Button/Button';
 import Social from '../SignIn/SocialMSignIn/Social';
-import '../../scss/SignUpStyle/SignUpStyle.scss'
+
 function SignUp() {
 	const [name, setName] = useState('');
 	const [lastname, setLastname] = useState('');
@@ -71,7 +71,7 @@ function SignUp() {
 						required
 						autoComplete="off"
 					/>
-					<Button  className="signup-button" type="submit"> Sign Up</Button>
+					<Button  className="flex justify-center w-8 min-w-full text-white items-center text-center m-0 p-0 font-semibold mt-2 bg-orange-400 rounded-full  h-8 min-h-full" type="submit"> Sign Up</Button>
 					<h6>or</h6>
 					<Social />
 				</Row>

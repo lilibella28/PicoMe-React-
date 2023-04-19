@@ -8,7 +8,8 @@ function HomePage() {
 	return (
 		<div>
 			<Container fluid>
-				
+				<Map  />
+				  <h4 className="mt-10 text-green-600">Nourish communities, unite against hunger - Picome</h4>
 						<UsersCards />
 				
 			</Container>
